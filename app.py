@@ -9,7 +9,7 @@ import joblib
 app = Flask(__name__)
 
 # تحميل البيانات وتدريب النموذج
-file_path = '/Users/reemabalharith/Desktop/Student_Performance.csv'
+file_path = 'Student_Performance.csv'
 data = pd.read_csv(file_path)
 
 # تحويل العمود 'Extracurricular Activities' إلى أرقام
